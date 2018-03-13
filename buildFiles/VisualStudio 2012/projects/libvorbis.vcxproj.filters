@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+   <ItemGroup>
+      <Filter Include="Source Files">
+         <UniqueIdentifier>{6320f5d0-aa22-4d55-be91-e058fd60b39a}</UniqueIdentifier>
+         <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;cc</Extensions>
+      </Filter>
+      <Filter Include="Source Files\lib">
+         <UniqueIdentifier>{0063f49e-7761-428a-ac81-c54d91eeb804}</UniqueIdentifier>
+      </Filter>
+      <Filter Include="Source Files\lib\include">
+         <UniqueIdentifier>{eca02e58-e2b0-4134-b915-ed74fec139b1}</UniqueIdentifier>
+      </Filter>
+      <Filter Include="Source Files\lib\lib">
+         <UniqueIdentifier>{f63b37ac-6876-4251-b8d1-71e01e99a168}</UniqueIdentifier>
+      </Filter>
+      <Filter Include="Source Files\lib\lib\books">
+         <UniqueIdentifier>{57d6ae83-7130-4501-96b2-91dfe0fa8bb7}</UniqueIdentifier>
+      </Filter>
+      <Filter Include="Source Files\lib\lib\books\coupled">
+         <UniqueIdentifier>{5333a0d1-c1b6-4f1b-be11-c7efa53eb988}</UniqueIdentifier>
+      </Filter>
+      <Filter Include="Source Files\lib\lib\books\floor">
+         <UniqueIdentifier>{7a343a69-5d43-41a8-8335-e6d8582e7f60}</UniqueIdentifier>
+      </Filter>
+      <Filter Include="Source Files\lib\lib\books\uncoupled">
+         <UniqueIdentifier>{262eff2a-cc8e-4fd6-8c9d-a40a6a4cf1b6}</UniqueIdentifier>
+      </Filter>
+      <Filter Include="Source Files\lib\lib\modes">
+         <UniqueIdentifier>{cd775251-f8fb-4dd1-999b-54d05886320b}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Torque.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+   <ItemGroup>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\analysis.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\bitrate.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\block.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\codebook.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\envelope.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\floor0.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\floor1.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\info.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\lookup.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\lpc.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\lsp.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\mapping0.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\mdct.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\psy.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\registry.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\res0.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\sharedbook.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\smallft.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\synthesis.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\vorbisenc.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\vorbisfile.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\window.c">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\include\vorbis\codec.h">
+         <Filter>Source Files\lib\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\include\vorbis\vorbisenc.h">
+         <Filter>Source Files\lib\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\include\vorbis\vorbisfile.h">
+         <Filter>Source Files\lib\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\backends.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\bitrate.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\codebook.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\codec_internal.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\envelope.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\highlevel.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\lookup.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\lookup_data.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\lpc.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\lsp.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\masking.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\mdct.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\misc.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\os.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\psy.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\registry.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\scales.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\smallft.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\window.h">
+         <Filter>Source Files\lib\lib</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\books\coupled\res_books_51.h">
+         <Filter>Source Files\lib\lib\books\coupled</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\books\coupled\res_books_stereo.h">
+         <Filter>Source Files\lib\lib\books\coupled</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\books\floor\floor_books.h">
+         <Filter>Source Files\lib\lib\books\floor</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\books\uncoupled\res_books_uncoupled.h">
+         <Filter>Source Files\lib\lib\books\uncoupled</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\floor_all.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\psych_11.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\psych_16.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\psych_44.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\psych_8.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\residue_16.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\residue_44.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\residue_44p51.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\residue_44u.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\residue_8.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\setup_11.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\setup_16.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\setup_22.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\setup_32.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\setup_44.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\setup_44p51.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\setup_44u.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\setup_8.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Torque 3.8\Engine\lib\libvorbis\lib\modes\setup_X.h">
+         <Filter>Source Files\lib\lib\modes</Filter>
+      </ClInclude>
+   </ItemGroup>
+   <ItemGroup>
+   </ItemGroup>
+</Project>
