@@ -64,7 +64,7 @@
          profile = "GuiMenuButtonProfile";
          visible = "1";
          active = "1";
-         command = "wixossLoadLevel();";
+         command = "wixissLoadLevel();";
          tooltipProfile = "GuiToolTipProfile";
          hovertime = "1000";
          isContainer = "0";
@@ -166,8 +166,4 @@ function MainMenuGui::onWake(%this)
        getWebDeployment() &&
        isObject(%this-->ExitButton))
       %this-->ExitButton.setVisible(false);
-}
-function wixossLoadLevel()
-{
- createAndConnectToLocalServer( "SinglePlayer", "levels/wixossMission.mis" );
 }
