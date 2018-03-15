@@ -300,11 +300,10 @@ function GameConnection::spawnPlayer(%this, %spawnPoint, %noControl)
    // Update the default camera to start with the player
    if (isObject(%this.camera))
    {
-   	   if (%player.getClassname() $= "Player"){ 
-   	   	   ServerConnection.setFirstPerson(0);
-   	   	   
- 	   } else {
- 	   %this.camera.setTransform(%player.getTransform());}
+      if (%player.getClassname() $= "Player")
+         %this.camera.setTransform(%player.getEyeTransform());
+      else
+         %this.camera.setTransform(%player.getTransform());
    }
 
    // Add the player object to MissionCleanup so that it

@@ -22,3 +22,17 @@
 
 // This is the default save location for any Datablocks created in the
 // Datablock Editor (this script is executed from onServerCreated())
+
+datablock PlayerData(WixossPlayerData)
+{
+   pickupRadius = "1";
+   minJumpSpeed = "800";
+   maxJumpSpeed = "1500";
+   shapeFile = "art/shapes/BlueGuy/player.dts";
+   cameraMaxDist = "4";
+   cameraMinDist = "3";
+   firstPersonOnly = "0";
+   useEyePoint = "0";
+   renderFirstPerson = "0";
+   observeThroughObject = "0";
+};

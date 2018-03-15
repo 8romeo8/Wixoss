@@ -1,4 +1,4 @@
-//-------------------------- 3/14/2018 -- 22:22:17 -----
+//-------------------------- 3/15/2018 -- 22:28:33 -----
 Processor Init:
    AMD Phenom, ~3.41 Ghz
    FPU detected
@@ -94,10 +94,11 @@ Accepted Mode:
 --Refresh Rate : 60
 --FSAA Level : 4
 --------------
-GFXPCD3D9Device::reset - depthstencil 1ee63e0 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 5363e0 has 2 ref's
 --- Resetting D3D Device ---
-GFXPCD3D9Device::reset - depthstencil 619ce40 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 605ce40 has 2 ref's
 --- Resetting D3D Device ---
+Could not create a description for binding: 
 Binding server port to default IP
 UDP initialized on port 0
 Activating DirectInput...
@@ -124,7 +125,7 @@ SimObject::linkNamespaces -- Namespace linkage already in place NavEditorConsole
  % - Initializing Shape Editor
 Engine initialized...
 Win32Window::WindowProc - resetting device due to window size change.
-GFXPCD3D9Device::reset - depthstencil 619cee0 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 605cee0 has 2 ref's
 --- Resetting D3D Device ---
 Window focus status changed: focus: 1
 AntiAliasing has been disabled; it is not compatible with AdvancedLighting.
@@ -134,8 +135,8 @@ Exporting server prefs...
 *** Stage 2 load
 *** Mission loaded
 Connect request from: IP:0.0.0.0:0
-Connection established 19552
-CADD: 19553 local
+Connection established 19555
+CADD: 19556 local
 *** Sending mission load to client: levels/wixossMission.mis
 Mapping string: ServerMessage to index: 0
 Mapping string: MsgConnectionError to index: 1
@@ -171,13 +172,13 @@ Failed to create resource: [levels/wixossMission.mis.decals]
 *** Phase 3: Mission Lighting
 Mission lighting done
 Mapping string: MissionStartPhase3Ack to index: 2
-Unable to spawn an object without a spawnClass
 Mapping string: MissionStart to index: 11
+[MaterialList::mapMaterials] Creating missing material for texture: art/shapes/BlueGuy/base.tmskin
 *** Initial Control Object
 *** Control Object Changed
 C:/Torque 3.8/My Projects/Wixoss/game/shaders/common/postFx/edgeaa/edgeDetectP.hlsl(51,13): warning X3550: array reference cannot be used as an l-value; not natively addressable, forcing loop to unroll
 *** ENDING MISSION
-CDROP: 19553 IP:0.0.0.0:0
+CDROP: 19556 IP:0.0.0.0:0
 Exporting server prefs...
 Exporting server prefs...
 Exporting client prefs

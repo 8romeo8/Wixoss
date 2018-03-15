@@ -369,6 +369,14 @@ function toggleFreeLook( %val )
       $mvFreeLook = false;
 }
 
+function toggleFirstPerson(%val)
+{
+   if (%val)
+   {
+      ServerConnection.setFirstPerson(!ServerConnection.isFirstPerson());
+   }
+}
+
 function toggleCamera(%val)
 {
    if (%val)
@@ -376,6 +384,7 @@ function toggleCamera(%val)
 }
 
 moveMap.bind( keyboard, z, toggleFreeLook );
+moveMap.bind(keyboard, tab, toggleFirstPerson );
 moveMap.bind(keyboard, "alt c", toggleCamera);
 
 moveMap.bind( gamepad, btn_back, toggleCamera );

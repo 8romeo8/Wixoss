@@ -26,8 +26,8 @@ $Pref::Server::RegionMask = 2;
 $pref::Master[0] = "2:master.garagegames.com:28002";
 
 // Information about the server
-$Pref::Server::Name = "Wixoss Server";
-$Pref::Server::Info = "This is a Wixoss server.";
+$Pref::Server::Name = "Torque 3D Server";
+$Pref::Server::Info = "This is a Torque 3D server.";
 
 // The connection error message is transmitted to the client immediatly
 // on connection, if any further error occures during the connection
